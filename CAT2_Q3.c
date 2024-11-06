@@ -36,9 +36,9 @@ int main() {
   
     netpay = grosspay - tax;
   
-    printf("Gross Pay: Ksh.%.2f\n", grosspay);
-    printf("Taxes: Ksh.%.2f\n", tax);
-    printf("Net Pay: Ksh.%.2f\n", netpay);
+    printf("Gross Pay: $%.2f\n", grosspay);
+    printf("Taxes: $%.2f\n", tax);
+    printf("Net Pay: $%.2f\n", netpay);
 
     return 0;
 }
