@@ -11,8 +11,6 @@ struct employee{
 	int id;
 	float salary;
 	
-	
-	
 }employee;
 
 int main(){
