@@ -18,7 +18,6 @@ int main() {
     
     //OVERTIME
     if (hoursworked > 40) {
-   
         overtimehours = hoursworked - 40;
         grosspay = (40 * hourlywage) + (overtimehours * hourlywage * 1.5);
     } else {
